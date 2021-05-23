@@ -61,7 +61,8 @@ def printUserFollowers(id):
   for idName in idListToIdAndNameList(followers):
     print(f"  {idName}")
   
-
+def test():
+  pass
 
 def generateNewId():
   global currentLastId
